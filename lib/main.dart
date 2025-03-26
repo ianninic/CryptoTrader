@@ -79,7 +79,7 @@ pGTtGz2tiiFAmHsviMRb3Ws6QIpJad/T5w==
     'volume_change': 0.2,
     'news_sentiment': 0.5,
   };
-}  String signRequest(String timestamp, String method, String path, String body) {
+ String signRequest(String timestamp, String method, String path, String body) {
     final privateKeyBytes = base64Decode(privateKeyPem.split('\n')[1].trim());
     final privateKey = ECPrivateKey(BigInt.parse(base64.encode(privateKeyBytes), radix: 64), ECCurve_secp256r1());
     final signer = ECDSASigner(SHA256Digest());
