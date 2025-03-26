@@ -1,0 +1,21 @@
+name: crypto_trader
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  web_socket_channel: ^2.4.0
+  crypto: ^3.0.3
+  shared_preferences: ^2.2.2
+  fl_chart: ^0.66.2
+  xml: ^6.5.0
+  flutter_local_notifications: ^17.0.0
+  pointycastle: ^3.7.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
