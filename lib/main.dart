@@ -779,7 +779,6 @@ pGTtGz2tiiFAmHsviMRb3Ws6QIpJad/T5w==
     const platform = NotificationDetails(android: android);
     await flutterLocalNotificationsPlugin.show(0, title, body, platform);
   }
-}
 
 class TradingScreen extends StatefulWidget {
   @override
